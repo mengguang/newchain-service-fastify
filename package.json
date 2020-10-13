@@ -1,0 +1,22 @@
+{
+  "name": "newchain-service-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-json-body": "^1.1.0",
+    "fastify": "^3.6.0",
+    "fastify-express": "^0.2.0",
+    "fastify-formbody": "^5.0.0",
+    "patch-package": "^6.2.2",
+    "qs": "^6.9.4",
+    "secp256k1": "^4.0.2"
+  }
+}
